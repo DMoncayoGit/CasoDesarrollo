@@ -1,0 +1,16 @@
+-------------------Administrador--------------------
+
+admin@gestioneducativa.edu.ec     hash_admin_2026
+
+--------------------Docentes------------------------
+
+m.perez@gestioneducativa.edu.ec   hash_docente_01 
+
+j.garcia@gestioneducativa.edu.ec  hash_docente_02 
+
+--------------------Estudiantes----------------------
+
+est.ana@gestioneducativa.edu.ec   hash_estudiante_01 
+
+est.luis@gestioneducativa.edu.ec  hash_estudiante_02 
+

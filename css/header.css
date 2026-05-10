@@ -1,0 +1,59 @@
+/*
+ Caso Práctico Desarrollo
+ Nombre: Doménica Moncayo
+ Fecha: 03/05/2026
+*/
+
+.navbar-custom {
+    background-color: #1a65b4a4; 
+    height: 75px;
+    margin-bottom: 25px;
+}
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link {
+    color: #154188; 
+}
+.navbar-custom .nav-link:hover {
+    color: #1a65b4a4; 
+}
+
+.btn-cancelar{
+    background-color: #1a65b4a4;
+    color: white; 
+}
+
+.btn-aceptar{
+    background-color: #154188;
+    color: white; 
+}
+
+/* Estilos para el menú desplegable en móviles */
+@media (max-width: 991px) {
+    .navbar-collapse {
+        background-color: #154188; /* Púrpura sólido para destacar */
+        text-align: center;
+        padding: 15px;
+        margin-top: 10px;
+        border-radius: 8px;
+    }
+
+    /* Color del texto e icono en el menú desplegable */
+    .navbar-collapse .nav-link {
+        color: white !important; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    /* Efecto al pasar el mouse dentro del menú móvil */
+    .navbar-collapse .nav-link:hover {
+        background-color: rgba(255, 255, 255, 0.1);
+        border-radius: 5px;
+    }
+}
+
+/* Ajuste para asegurar que el icono del botón hamburguesa coincida */
+.navbar-toggler-icon {
+    filter: invert(16%) sepia(85%) saturate(2470%) hue-rotate(258deg) brightness(85%) contrast(90%);
+}
